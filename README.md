@@ -8,9 +8,6 @@ During the planning phase, we chose to emphasize three main aspects:
 
 We will see how this manifests itself later on.
 
-The main project objective is to show our ability to work with React and its concepts combined with  in order to 
-
-
 ## Table of contents 
 - [Employeely](#employeely)
   - [Why was Employeely made](#why-was-employeely-made)
