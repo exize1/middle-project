@@ -43,17 +43,17 @@ This web application was made as part of a 50 hours assignment, in order to show
 ### Create user and Login
 Login page with Yup validation, and the option to login as a guest (not as a feature but as a tool for making it easy to take a look at the website, instead of signing-up)
 
-<p align="center"><img src="https://res.cloudinary.com/diggwedxe/image/upload/v1666347642/Screenshots/employeely/res-console.cloudinary_z8iwvo.jpg" /></p>
+<p align="center"><img src="https://res.cloudinary.com/diggwedxe/image/upload/v1666350800/Screenshots/employeely/login_jjswpq.jpg" /></p>
 
 ### Home page
 Welcome page  
 
-<p align="center"><img src="https://res.cloudinary.com/diggwedxe/image/upload/v1666347644/Screenshots/employeely/res-console.cloudinary_ysgzzi.jpg"/></p>
+<p align="center"><img src="https://res.cloudinary.com/diggwedxe/image/upload/v1666350747/Screenshots/employeely/home_ble4df.jpg"/></p>
 
 
 
-<p align="center"><img src="https://res.cloudinary.com/diggwedxe/image/upload/v1666277608/Screenshots/employeely/res-console.cloudinary_ni2p50.jpg"/></p>
-<p align="center"><img src="https://res.cloudinary.com/diggwedxe/image/upload/v1666347640/Screenshots/employeely/res-console.cloudinary_af7ws3.jpg"/></p>
+<p align="center"><img src="https://res.cloudinary.com/diggwedxe/image/upload/v1666350768/Screenshots/employeely/posts_e844pd.jpg"/></p>
+<p align="center"><img src="https://res.cloudinary.com/diggwedxe/image/upload/v1666350806/Screenshots/employeely/events_dphtly.jpg"/></p>
 
 ### Archive
 
@@ -61,11 +61,11 @@ This side of the site focuses on the order aspect, the goal is to create an orde
 
 In the Archive page you can see all the file types the company use, and search your desired file type.
 
-<p align="center"><img src="https://res.cloudinary.com/diggwedxe/image/upload/v1666347650/Screenshots/employeely/res-console.cloudinary_gv6r2v.jpg"/></p>
+<p align="center"><img src="https://res.cloudinary.com/diggwedxe/image/upload/v1666350811/Screenshots/employeely/archive_sh6rel.jpg"/></p>
 
 ### Profile page
 
-<p align="center"><img src="https://res.cloudinary.com/diggwedxe/image/upload/v1666277622/Screenshots/employeely/res-console.cloudinary_vnihdk.jpg"/></p>
+<p align="center"><img src="https://res.cloudinary.com/diggwedxe/image/upload/v1666350768/Screenshots/employeely/profile_page_v4vtfd.jpg"/></p>
 
 ## Technologies:
 
