@@ -46,13 +46,22 @@ Login page with Yup validation, and the option to login as a guest (not as a fea
 <p align="center"><img src="https://res.cloudinary.com/diggwedxe/image/upload/v1666350800/Screenshots/employeely/login_jjswpq.jpg" /></p>
 
 ### Home page
-Welcome page  
+
+On the top-left side you can see a message icon. Its open a chat where the employees can chat with each other in any part/page on the website. 
 
 <p align="center"><img src="https://res.cloudinary.com/diggwedxe/image/upload/v1666350747/Screenshots/employeely/home_ble4df.jpg"/></p>
 
-
+This section contains the company news. This part contains articles about the company/workers activity in the big society. This part  is focusing on the Contributive aspect:
+1. Keep the workers updated about the latest activities. 
+2. Motivate the employees to be helpful and contributive themselves. 
+3. Give the employee a sense of belonging to a quality place, with depth and values 
 
 <p align="center"><img src="https://res.cloudinary.com/diggwedxe/image/upload/v1666350768/Screenshots/employeely/posts_e844pd.jpg"/></p>
+
+The Company's events, containe a list of the comapny's events, and a calendar with an option to add a payment method, for the company events. This part is focusing on the Cohesive aspect:
+1. Employees can be updated about the events the company is planning.
+2. Some of the events will cost symbolic price, so the emloyees who decied to take part in it, will feel more belonging to it. 
+
 <p align="center"><img src="https://res.cloudinary.com/diggwedxe/image/upload/v1666350806/Screenshots/employeely/events_dphtly.jpg"/></p>
 
 ### Archive
@@ -65,13 +74,26 @@ In the Archive page you can see all the file types the company use, and search y
 
 ### Profile page
 
+To find your profile, you need to click the avatar on the navbar, and it will open you a dropdown with 3 options:
+Profile, Archive and Logout. 
+
+On this page we have the employee details:
+- Name
+- Picture
+- Role in the company
+- Links to the emplyee social networks if he choose to add them (on the "edit' icon)
+- Email
+- Birthday date
+
+In addition, other workers can add feedback to other employees. This feature also come along with the Cohesive aspect.
+
 <p align="center"><img src="https://res.cloudinary.com/diggwedxe/image/upload/v1666350768/Screenshots/employeely/profile_page_v4vtfd.jpg"/></p>
 
 ## Technologies:
 
 * React.JS
 
-## Tools and libraries:
+### Tools and libraries:
 
   * react-redux
   * react-router
@@ -81,8 +103,5 @@ In the Archive page you can see all the file types the company use, and search y
 
 ## What's next:
 - [ ] Archive page - add a modal for each file type, where you have a list of all the files of the picked type, with an option to search or/and fitler.
-- [ ] Add 'change password' and 'Delist all my auctions' options in the setting section. 
-- [ ] Replace the Credit Card option with Paypal or/and Tranzila instead of saving the user's card details in the DB. 
-- [ ] Improve the list of 'Most popular' (on the home page) so it will show the most popular at different times (24 hours, 7 days, 30 days).
-- [ ] Link the search output to the product page.
-- [ ] Show in the auction page, only the Active products
+- [ ] Events - connect the list to th. 
+- [ ] Navbar - Add a searching orion to find other users 
