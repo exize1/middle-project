@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# Employeely - Intra-organizational social network. 
+In many companies, we can find several similar guidelines that are the pillars of the company.
+One of them - creating a work environment that is organized, pleasant, proactive, cohesive, and contributive.
+During the planning phase, we chose to emphasize three main aspects:
+- Organized
+- Cohesive
+- Contributive
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+We will see how this manifests itself later on.
 
-## Available Scripts
+The main project objective is to show our ability to work with React and its concepts combined with  in order to 
 
-In the project directory, you can run:
 
-### `npm start`
+## Table of contents 
+- [Employeely](#employeely)
+  - [Why was Employeely made](#why-was-employeely-made)
+  - [Running the project](#running-the-project)
+  - [Screenshots](#screenshots)
+    + [Create user / Login](#create-user-and-login)
+    + [Home page](#home-page)
+    + [Archive](#archive-page)
+    + [Profile Page](#profile-page)
+  - [Technologies](#technologies)
+  - [Tools and libraries:](#tools-and-libraries)
+  - [Whats Next](#whats-next)
+  
+## Why was Employeely made
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This web application was made as part of a 50 hours assignment, in order to show:  
+1. Our ability to work with React and its concepts.
+2. Demonstrate our understanding of React structure.
+3. Practice coding as a team.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Running the project
 
-### `npm test`
+1. Clone the repo.
+2. Run `npm install`
+3. Run 'npm start'
+4. Navigate to `http://localhost:3000`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
 
-### `npm run build`
+### Create user and Login
+Login page with Yup validation, and the option to login as a guest (not as a feature but as a tool for making it easy to take a look at the website, instead of signing-up)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center"><img src="https://res.cloudinary.com/diggwedxe/image/upload/v1666347642/Screenshots/employeely/res-console.cloudinary_z8iwvo.jpg" /></p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Home page
+Welcome page  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="center"><img src="https://res.cloudinary.com/diggwedxe/image/upload/v1666347644/Screenshots/employeely/res-console.cloudinary_ysgzzi.jpg"/></p>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="center"><img src="https://res.cloudinary.com/diggwedxe/image/upload/v1666277608/Screenshots/employeely/res-console.cloudinary_ni2p50.jpg"/></p>
+<p align="center"><img src="https://res.cloudinary.com/diggwedxe/image/upload/v1666347640/Screenshots/employeely/res-console.cloudinary_af7ws3.jpg"/></p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Archive
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This side of the site focuses on the order aspect, the goal is to create an orderly work environment where you can find all the files in the organization. 
 
-## Learn More
+In the Archive page you can see all the file types the company use, and search your desired file type.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="center"><img src="https://res.cloudinary.com/diggwedxe/image/upload/v1666347650/Screenshots/employeely/res-console.cloudinary_gv6r2v.jpg"/></p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Profile page
 
-### Code Splitting
+<p align="center"><img src="https://res.cloudinary.com/diggwedxe/image/upload/v1666277622/Screenshots/employeely/res-console.cloudinary_vnihdk.jpg"/></p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Technologies:
 
-### Analyzing the Bundle Size
+* React.JS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Tools and libraries:
 
-### Making a Progressive Web App
+  * react-redux
+  * react-router
+  * Mui
+  * formik and yup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## What's next:
+- [ ] Archive page - add a modal for each file type, where you have a list of all the files of the picked type, with an option to search or/and fitler.
+- [ ] Add 'change password' and 'Delist all my auctions' options in the setting section. 
+- [ ] Replace the Credit Card option with Paypal or/and Tranzila instead of saving the user's card details in the DB. 
+- [ ] Improve the list of 'Most popular' (on the home page) so it will show the most popular at different times (24 hours, 7 days, 30 days).
+- [ ] Link the search output to the product page.
+- [ ] Show in the auction page, only the Active products
