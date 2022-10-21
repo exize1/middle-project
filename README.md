@@ -1,4 +1,4 @@
-# [Employeely](https://employeely.netlify.app/) - Intra-organizational social network. 
+# [Employeely](https://employeely.netlify.app/)  (Intra-organizational social network) 
 In many companies, we can find several similar guidelines that are the pillars of the company.
 One of them - creating a work environment that is organized, pleasant, proactive, cohesive, and contributive.
 During the planning phase, we chose to emphasize three main aspects:
